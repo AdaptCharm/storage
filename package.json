@@ -1,0 +1,27 @@
+{
+  "name": "@adaptcharm/storage",
+  "description": "A wrapper that simplifies using object storage services.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jamie Isaksen",
+    "email": "jamie@jamie.no"
+  },
+  "license": "UNLICENSED",
+  "main": "storage.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+      "url": "git@github.com:AdaptCharm/storage.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.467.0",
+    "fs-extra": "^8.0.1",
+    "glob": "^7.1.4",
+    "got": "^9.6.0",
+    "mime": "^2.4.3"
+  }
+}
